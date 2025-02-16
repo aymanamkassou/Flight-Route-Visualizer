@@ -1,6 +1,6 @@
 # Flight Route Visualizer
 
-A real-time aviation route visualization system that implements Dijkstra's algorithm and BFS for optimal route finding between airports and waypoints. The system focuses on visualizing the pathfinding process and simulating aircraft movement along the selected routes.
+A real-time aviation route visualization system that implements Dijkstra's algorithm and BFS for optimal route finding between airports. The system focuses on visualizing the pathfinding process and simulating aircraft movement along the selected routes.
 
 ## Features
 
@@ -16,7 +16,7 @@ A real-time aviation route visualization system that implements Dijkstra's algor
 ### Backend
 - C++ for core algorithms and server
 - cpprestsdk for HTTP server and REST API
-- CSR (Compressed Sparse Row) graph implementation for efficient route calculations
+- CSR (Compressed Sparse Row) graph implementation for efficient in-memory storage
 
 ### Frontend
 - Next.js for the web interface
